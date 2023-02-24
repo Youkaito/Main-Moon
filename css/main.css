@@ -1,10 +1,17 @@
 body {
     text-align: center;
+    background-color: #FCFFE9;
+    position: relative;
 }
 nav ul {
     list-style: none;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 nav ul li a {
     text-decoration: none;
@@ -12,6 +19,7 @@ nav ul li a {
     padding: .5em;
     margin: .5em;
     font-size: 20px;
+    color: black;
 }
 button a {
     text-decoration: none;
@@ -41,7 +49,9 @@ button a {
 }
 #container {
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #CAEFD1;
 }
 p {
     line-height: 1.5em;
@@ -62,6 +72,36 @@ button {
     min-height: 300px;
     margin: 10px;
 }
+.lunch {
+    background-image: url(../images/lunch.jpg);
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+}
+.combos {
+    background-image: url(../images/combo.jpg);
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+}
+.specialties {
+    background-image: url(../images/specialties.jpg);
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+}
+.day {
+    background-image: url(../images/day.jpg);
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+}
+.deals {
+    background-image: url(../images/deals.jpg);
+    border-radius: 30%;
+    background-size: cover;
+    background-position: center center;
+}
 #wrap {
     display: flex;
     flex-wrap: wrap;
@@ -74,12 +114,7 @@ button {
     align-items: center;
     margin: auto;
 }
-ul li {
-    text-decoration: none;
-    list-style: none;
-    font-size: 1.6em;
-    line-height: 1.5em;
-}
+
 #footer {
     display: flex;
     flex-direction: column;
@@ -87,5 +122,17 @@ ul li {
     background-color: #FFF2CC;
     max-width: 100vw;
     padding: 1px;
-    margin-top: 2em;
 }
+li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.6em;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+}
+a button {
+    color:white;
+    text-decoration: none;
+}    
