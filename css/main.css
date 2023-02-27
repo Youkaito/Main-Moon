@@ -7,21 +7,20 @@ nav ul {
     display: flex;
     justify-content: flex-end;
     position: fixed;
-    background-color: grey;
+    background-color: rgb(244, 211, 206);
     width: 100%;
     margin: 0;
     padding: 0;
 }
-nav ul li a {
+a {
     text-decoration: none;
+}
+nav ul li a {
     display: block;
     padding: .5em;
     margin: .5em;
     font-size: 20px;
     color: black;
-}
-button a {
-    text-decoration: none;
 }
 #hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/hero.png");
@@ -128,12 +127,8 @@ ul li {
     font-size: 1.6em;
     line-height: 1.5em;
 }
-a {
-    text-decoration: none;
-}
 a button {
     color:white;
-    text-decoration: none;
 }    
 #menu-list {
     padding-top: 100px;
